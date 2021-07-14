@@ -133,16 +133,16 @@ function hungryDog(weight,age){
    return weight * 0.02;
   }
   // puppies 
-  else if (age >= 0.1667 && age <= 0.3333) {
+  else if (age >= 0.1667 && age < 0.3333) {
     return weight * 0.1;
-  } else if (age > 0.3333 && age <= 0.5833) {
+  } else if (age < 0.583) {
    return weight * 0.05;
-  }else if (age <= 1 && age >= 0.5833) {
+  }else {
     return weight * 0.04;
   }
 };
 
-console.log (14 ,1);
+console.log (15 ,1);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
